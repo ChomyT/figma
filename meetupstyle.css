@@ -62,7 +62,7 @@ header{
 }
 .toplogo, .hamburger, 
 .hero-section,
-.company__section{
+.company__section, .people{
   padding: 5rem 10%;
 }
 .mobile__menu a{
@@ -101,13 +101,15 @@ header{
 }
 .people{
   margin: 3rem auto;
-  gap: 
+  gap: 3rem;
+  width: 100%;
 }
 .company__section{
   display: flex;
   flex-direction: column;
   gap: 2rem;
   align-items: center;
+  width: 100%;
 }
 #login{
   margin-left: 20rem;
