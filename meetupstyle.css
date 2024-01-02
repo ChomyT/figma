@@ -1,0 +1,211 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+html {
+  font-size: 62.5%; /* 10px */
+}
+
+html * {
+  font-family:  sans-serif;
+  font-family: 'Titillium Web';
+}
+
+header{
+ background: #600ACE;
+ position: fixed;
+ color: white;
+ display: flex;
+ justify-content: space-between;
+ flex-direction: row;
+ width: 100%;
+ height: 90px;
+ top: 0;
+}
+.mobile__menu{
+  display: block;
+  background-color: #9951f7;
+  color: white;
+  opacity: 0.6;
+  height: 500px;
+  width: 100%;
+  margin-top: 90px;
+  height:100dh;
+}
+.desktop__ul{
+  display: none;
+  
+  }
+.desktop__ul a{
+  padding: 14px 16px;
+  color: white;
+  list-style-type: none;
+  font-size: 1.5rem;
+}
+.desk-nav a{
+  text-decoration: none;
+  list-style-type: none;
+  color:white;
+
+}
+
+.desktop__ul li{
+  list-style-type: none;
+  margin-top: 5rem;
+}
+.mobile__menu{
+  overflow: hidden;
+  position: relative;
+}
+.toplogo, .hamburger, 
+.hero-section,
+.company__section{
+  padding: 5rem 10%;
+}
+.mobile__menu a{
+  color: white;
+  padding: 14px 16px;
+  text-decoration:none;
+  font-size: 17px;
+  display: block;
+}
+.mobile__menu a:hover{
+  background-color: white;
+  color: black;
+}
+.mobile__menu{
+  display: none;
+
+}
+.hamburger{
+  display: block;
+  position: absolute;
+  right: 0px;
+  top:0px;
+  font-size: 2rem;
+}
+.hamburger{
+  cursor: pointer;
+}
+
+.hero-section{
+ margin-top: 10rem;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 1rem;
+
+}
+.people{
+  margin:auto;
+}
+.company__section{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+#login{
+  margin-left: 20rem;
+}
+#signup{
+  color: white;
+  border: 1px solid white;
+  padding: 1rem;
+  border-radius: 3px;
+  align-items:center;
+  margin-bottom: rem;
+}
+.hero__heading{
+ font-size: 3.6rem;
+ color:#600ACE;
+}
+.hero__paragraph{
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+.try__it{
+  padding: 14px 20px;
+  background-color: #600ACE;
+  color: white;
+  margin-top: 5rem;
+  border-radius:19px; 
+}
+.people{
+  width: 400px;
+  height: 300px;
+}
+.logo{
+  width: 50px;
+  height: 50px;
+  margin: auto 2rem;
+}
+#microsoft{
+  width: 200px;
+}
+.comp_text{
+  color:#600ACE;
+  font-size: 1.4rem;
+}
+#toplogo{
+  height:50px;
+  width:50px;
+  color: white;
+
+}
+.Company__logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media only screen and (min-width: 768px){
+  .mobile__menu{
+    display: none;
+  }
+  .hamburger{
+    display: none;
+  }
+    .desktop__ul{
+    display: flex;
+      }
+
+  .desk-nav{
+  list-style-type: none;
+  color: white;
+  display: inline;
+   }
+    .desk-nav a{
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  
+  .hero-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:5rem;
+    width: 100%;
+      }
+  
+  .company__section{
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .Company__logo{
+    display: flex;
+    flex-direction: row;
+   
+  }
+}
+
