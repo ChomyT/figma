@@ -154,9 +154,11 @@ header{
   font-size: 1.4rem;
 }
 #toplogo{
+  position:relative;
   height:50px;
   width:50px;
   color: white;
+  bottom: 20px;
 
 }
 .Company__logo{
